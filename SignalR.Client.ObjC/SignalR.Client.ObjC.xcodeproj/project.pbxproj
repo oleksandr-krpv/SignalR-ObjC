@@ -93,8 +93,8 @@
 		39B355021C7CE27B0076E8E0 /* SREventSourceStreamReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39B355001C7CE27B0076E8E0 /* SREventSourceStreamReaderTests.m */; };
 		67F08F302448FB904F57EA11 /* Pods_SignalR_Client_iOS_SignalR_Client_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD05576397746170EB20A0D9 /* Pods_SignalR_Client_iOS_SignalR_Client_iOSTests.framework */; };
 		77DDD23056DDF5601554BBC1 /* Pods_SignalR_Client_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B651E0317CA0F4E26E1338 /* Pods_SignalR_Client_iOS.framework */; };
-		C9D717AA1579C0EBB9DB7991 /* Pods_SignalR_Client_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E42E16292B5ADF0F39E2488 /* Pods_SignalR_Client_OSX.framework */; };
-		EB0E00004390814A26BA2CFE /* Pods_SignalR_Client_OSX_SignalR_Client_OSXTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD1B5DC6D0FC39C5177F9A65 /* Pods_SignalR_Client_OSX_SignalR_Client_OSXTests.framework */; };
+		A9A9C458E30153F0CD9FB82A /* Pods_SignalR_Client_OSX_SignalR_Client_OSXTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9BA31D814F2285D32303DCC /* Pods_SignalR_Client_OSX_SignalR_Client_OSXTests.framework */; };
+		D0436BC8C8502173E5DC632B /* Pods_SignalR_Client_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EACBA5CC0134F848AB08026 /* Pods_SignalR_Client_OSX.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,8 +115,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07F6CD2CF7A672DA7749C5EF /* Pods-SignalR.Client.OSX-SignalR.Client.OSXTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalR.Client.OSX-SignalR.Client.OSXTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-SignalR.Client.OSX-SignalR.Client.OSXTests/Pods-SignalR.Client.OSX-SignalR.Client.OSXTests.release.xcconfig"; sourceTree = "<group>"; };
-		169D6F6F1D2268E3DC76B1F5 /* Pods-SignalR.Client.OSX-SignalR.Client.OSXTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalR.Client.OSX-SignalR.Client.OSXTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-SignalR.Client.OSX-SignalR.Client.OSXTests/Pods-SignalR.Client.OSX-SignalR.Client.OSXTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0AC324B07FC205B28C7C0DF8 /* Pods-SignalR.Client.OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalR.Client.OSX.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-SignalR.Client.OSX/Pods-SignalR.Client.OSX.debug.xcconfig"; sourceTree = "<group>"; };
+		1B39886EE52E5B7D9891C602 /* Pods-SignalR.Client.OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalR.Client.OSX.release.xcconfig"; path = "../Pods/Target Support Files/Pods-SignalR.Client.OSX/Pods-SignalR.Client.OSX.release.xcconfig"; sourceTree = "<group>"; };
+		2EACBA5CC0134F848AB08026 /* Pods_SignalR_Client_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignalR_Client_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		31B651E0317CA0F4E26E1338 /* Pods_SignalR_Client_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignalR_Client_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3903084A173C660E00FE660E /* SRHeartbeatMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRHeartbeatMonitor.h; sourceTree = "<group>"; };
 		3903084B173C660E00FE660E /* SRHeartbeatMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRHeartbeatMonitor.m; sourceTree = "<group>"; };
@@ -210,14 +211,13 @@
 		39F7D7AF1833FC99002590A6 /* SRServerSentEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRServerSentEvent.m; sourceTree = "<group>"; };
 		4D0C2CFA185482E53BF2E516 /* Pods-SignalR.Client.iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalR.Client.iOS.release.xcconfig"; path = "../Pods/Target Support Files/Pods-SignalR.Client.iOS/Pods-SignalR.Client.iOS.release.xcconfig"; sourceTree = "<group>"; };
 		5CB58D8B0E8F95535744392B /* Pods-SignalR.Client.iOS-SignalR.Client.iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalR.Client.iOS-SignalR.Client.iOSTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-SignalR.Client.iOS-SignalR.Client.iOSTests/Pods-SignalR.Client.iOS-SignalR.Client.iOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		6E42E16292B5ADF0F39E2488 /* Pods_SignalR_Client_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignalR_Client_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7310A0583ECDADE2915A8573 /* Pods-SignalR.Client.OSX-SignalR.Client.OSXTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalR.Client.OSX-SignalR.Client.OSXTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-SignalR.Client.OSX-SignalR.Client.OSXTests/Pods-SignalR.Client.OSX-SignalR.Client.OSXTests.debug.xcconfig"; sourceTree = "<group>"; };
+		85DB111E55BDB583856D010E /* Pods-SignalR.Client.OSX-SignalR.Client.OSXTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalR.Client.OSX-SignalR.Client.OSXTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-SignalR.Client.OSX-SignalR.Client.OSXTests/Pods-SignalR.Client.OSX-SignalR.Client.OSXTests.release.xcconfig"; sourceTree = "<group>"; };
 		8CFF876916E13FF500B67FCA /* SRHubConnectionInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRHubConnectionInterface.h; sourceTree = "<group>"; };
 		A06755FFA3D124F078D03209 /* Pods-SignalR.Client.iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalR.Client.iOS.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-SignalR.Client.iOS/Pods-SignalR.Client.iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		A186B2D8C7AADAB56339675B /* Pods-SignalR.Client.OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalR.Client.OSX.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-SignalR.Client.OSX/Pods-SignalR.Client.OSX.debug.xcconfig"; sourceTree = "<group>"; };
 		CD05576397746170EB20A0D9 /* Pods_SignalR_Client_iOS_SignalR_Client_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignalR_Client_iOS_SignalR_Client_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFFC3148AAF3EA599328B719 /* Pods-SignalR.Client.OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalR.Client.OSX.release.xcconfig"; path = "../Pods/Target Support Files/Pods-SignalR.Client.OSX/Pods-SignalR.Client.OSX.release.xcconfig"; sourceTree = "<group>"; };
+		D9BA31D814F2285D32303DCC /* Pods_SignalR_Client_OSX_SignalR_Client_OSXTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignalR_Client_OSX_SignalR_Client_OSXTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECA811FA4ADEF34C2DB45A4D /* Pods-SignalR.Client.iOS-SignalR.Client.iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalR.Client.iOS-SignalR.Client.iOSTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-SignalR.Client.iOS-SignalR.Client.iOSTests/Pods-SignalR.Client.iOS-SignalR.Client.iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		FD1B5DC6D0FC39C5177F9A65 /* Pods_SignalR_Client_OSX_SignalR_Client_OSXTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignalR_Client_OSX_SignalR_Client_OSXTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,7 +225,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9D717AA1579C0EBB9DB7991 /* Pods_SignalR_Client_OSX.framework in Frameworks */,
+				D0436BC8C8502173E5DC632B /* Pods_SignalR_Client_OSX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,7 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				393029FE1C6974C20061C6B5 /* SignalR.framework in Frameworks */,
-				EB0E00004390814A26BA2CFE /* Pods_SignalR_Client_OSX_SignalR_Client_OSXTests.framework in Frameworks */,
+				A9A9C458E30153F0CD9FB82A /* Pods_SignalR_Client_OSX_SignalR_Client_OSXTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,14 +261,14 @@
 		38078F44ACF7B5D83E574BE7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A186B2D8C7AADAB56339675B /* Pods-SignalR.Client.OSX.debug.xcconfig */,
-				DFFC3148AAF3EA599328B719 /* Pods-SignalR.Client.OSX.release.xcconfig */,
-				169D6F6F1D2268E3DC76B1F5 /* Pods-SignalR.Client.OSX-SignalR.Client.OSXTests.debug.xcconfig */,
-				07F6CD2CF7A672DA7749C5EF /* Pods-SignalR.Client.OSX-SignalR.Client.OSXTests.release.xcconfig */,
 				A06755FFA3D124F078D03209 /* Pods-SignalR.Client.iOS.debug.xcconfig */,
 				4D0C2CFA185482E53BF2E516 /* Pods-SignalR.Client.iOS.release.xcconfig */,
 				ECA811FA4ADEF34C2DB45A4D /* Pods-SignalR.Client.iOS-SignalR.Client.iOSTests.debug.xcconfig */,
 				5CB58D8B0E8F95535744392B /* Pods-SignalR.Client.iOS-SignalR.Client.iOSTests.release.xcconfig */,
+				0AC324B07FC205B28C7C0DF8 /* Pods-SignalR.Client.OSX.debug.xcconfig */,
+				1B39886EE52E5B7D9891C602 /* Pods-SignalR.Client.OSX.release.xcconfig */,
+				7310A0583ECDADE2915A8573 /* Pods-SignalR.Client.OSX-SignalR.Client.OSXTests.debug.xcconfig */,
+				85DB111E55BDB583856D010E /* Pods-SignalR.Client.OSX-SignalR.Client.OSXTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -363,10 +363,10 @@
 		3920780915AF13C3009B959E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6E42E16292B5ADF0F39E2488 /* Pods_SignalR_Client_OSX.framework */,
-				FD1B5DC6D0FC39C5177F9A65 /* Pods_SignalR_Client_OSX_SignalR_Client_OSXTests.framework */,
 				31B651E0317CA0F4E26E1338 /* Pods_SignalR_Client_iOS.framework */,
 				CD05576397746170EB20A0D9 /* Pods_SignalR_Client_iOS_SignalR_Client_iOSTests.framework */,
+				2EACBA5CC0134F848AB08026 /* Pods_SignalR_Client_OSX.framework */,
+				D9BA31D814F2285D32303DCC /* Pods_SignalR_Client_OSX_SignalR_Client_OSXTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -522,12 +522,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39302A051C6974C20061C6B5 /* Build configuration list for PBXNativeTarget "SignalR.Client.OSX" */;
 			buildPhases = (
-				BE773CA6D603623DBCDFD6AF /* Check Pods Manifest.lock */,
+				9584A12F13207B5BF18F58AD /* [CP] Check Pods Manifest.lock */,
 				393029EF1C6974C10061C6B5 /* Sources */,
 				393029F01C6974C10061C6B5 /* Frameworks */,
 				393029F11C6974C10061C6B5 /* Headers */,
 				393029F21C6974C10061C6B5 /* Resources */,
-				7C5BAF419D1DB75581A41B87 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -542,12 +541,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39302A081C6974C20061C6B5 /* Build configuration list for PBXNativeTarget "SignalR.Client.OSXTests" */;
 			buildPhases = (
-				537C4819A81E84FE2982C1CF /* Check Pods Manifest.lock */,
+				A06D8165A05D4A120C7FA02A /* [CP] Check Pods Manifest.lock */,
 				393029F91C6974C20061C6B5 /* Sources */,
 				393029FA1C6974C20061C6B5 /* Frameworks */,
 				393029FB1C6974C20061C6B5 /* Resources */,
-				67E90B84652BAD667E4611D1 /* Embed Pods Frameworks */,
-				0B029DDB5BC07F36BE28C47C /* Copy Pods Resources */,
+				8890D9A782C8B987A23F945F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -563,12 +561,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39302A3F1C6978AC0061C6B5 /* Build configuration list for PBXNativeTarget "SignalR.Client.iOS" */;
 			buildPhases = (
+				17147EBAF66053731DC78B81 /* [CP] Check Pods Manifest.lock */,
 				42E081C85DE4F4916D0F3D75 /* Check Pods Manifest.lock */,
 				39302A291C6978AB0061C6B5 /* Sources */,
 				39302A2A1C6978AB0061C6B5 /* Frameworks */,
 				39302A2B1C6978AB0061C6B5 /* Headers */,
 				39302A2C1C6978AB0061C6B5 /* Resources */,
-				796268F885EFEC8F1356854A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -583,12 +581,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39302A421C6978AC0061C6B5 /* Build configuration list for PBXNativeTarget "SignalR.Client.iOSTests" */;
 			buildPhases = (
+				BBF6344433346ADAD9AD8CB7 /* [CP] Check Pods Manifest.lock */,
 				21C56E6B6FDFA0220435E7AD /* Check Pods Manifest.lock */,
 				39302A331C6978AC0061C6B5 /* Sources */,
 				39302A341C6978AC0061C6B5 /* Frameworks */,
 				39302A351C6978AC0061C6B5 /* Resources */,
 				2AC719B5534D658A6E1038BA /* Embed Pods Frameworks */,
-				1A11AFB25C13B6568AF7E084 /* Copy Pods Resources */,
+				2DCF62C05BFF6B3440BE619F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -628,6 +627,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 392077FC15AF13C3009B959E;
@@ -676,34 +676,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0B029DDB5BC07F36BE28C47C /* Copy Pods Resources */ = {
+		17147EBAF66053731DC78B81 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SignalR.Client.iOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-SignalR.Client.OSX-SignalR.Client.OSXTests/Pods-SignalR.Client.OSX-SignalR.Client.OSXTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1A11AFB25C13B6568AF7E084 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-SignalR.Client.iOS-SignalR.Client.iOSTests/Pods-SignalR.Client.iOS-SignalR.Client.iOSTests-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		21C56E6B6FDFA0220435E7AD /* Check Pods Manifest.lock */ = {
@@ -736,6 +728,28 @@
 			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-SignalR.Client.iOS-SignalR.Client.iOSTests/Pods-SignalR.Client.iOS-SignalR.Client.iOSTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		2DCF62C05BFF6B3440BE619F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SignalR.Client.iOS-SignalR.Client.iOSTests/Pods-SignalR.Client.iOS-SignalR.Client.iOSTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/SocketRocket-iOS/SocketRocket.framework",
+				"${BUILT_PRODUCTS_DIR}/OCMock-iOS/OCMock.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketRocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OCMock.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SignalR.Client.iOS-SignalR.Client.iOSTests/Pods-SignalR.Client.iOS-SignalR.Client.iOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		42E081C85DE4F4916D0F3D75 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -751,79 +765,92 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		537C4819A81E84FE2982C1CF /* Check Pods Manifest.lock */ = {
+		8890D9A782C8B987A23F945F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SignalR.Client.OSX-SignalR.Client.OSXTests/Pods-SignalR.Client.OSX-SignalR.Client.OSXTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking-93a4f461/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/SocketRocket-macOS/SocketRocket.framework",
+				"${BUILT_PRODUCTS_DIR}/OCMock-macOS/OCMock.framework",
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketRocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OCMock.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SignalR.Client.OSX-SignalR.Client.OSXTests/Pods-SignalR.Client.OSX-SignalR.Client.OSXTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		67E90B84652BAD667E4611D1 /* Embed Pods Frameworks */ = {
+		9584A12F13207B5BF18F58AD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SignalR.Client.OSX-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-SignalR.Client.OSX-SignalR.Client.OSXTests/Pods-SignalR.Client.OSX-SignalR.Client.OSXTests-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		796268F885EFEC8F1356854A /* Copy Pods Resources */ = {
+		A06D8165A05D4A120C7FA02A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SignalR.Client.OSX-SignalR.Client.OSXTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-SignalR.Client.iOS/Pods-SignalR.Client.iOS-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7C5BAF419D1DB75581A41B87 /* Copy Pods Resources */ = {
+		BBF6344433346ADAD9AD8CB7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SignalR.Client.iOS-SignalR.Client.iOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-SignalR.Client.OSX/Pods-SignalR.Client.OSX-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BE773CA6D603623DBCDFD6AF /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1045,7 +1072,7 @@
 		};
 		39302A061C6974C20061C6B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A186B2D8C7AADAB56339675B /* Pods-SignalR.Client.OSX.debug.xcconfig */;
+			baseConfigurationReference = 0AC324B07FC205B28C7C0DF8 /* Pods-SignalR.Client.OSX.debug.xcconfig */;
 			buildSettings = {
 				BITCODE_GENERATION_MODE = marker;
 				CODE_SIGN_IDENTITY = "-";
@@ -1058,7 +1085,7 @@
 				INFOPLIST_FILE = ../Framework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dyknow.SignalR-ObjC";
 				PRODUCT_NAME = SignalR;
 				SDKROOT = macosx;
@@ -1068,7 +1095,7 @@
 		};
 		39302A071C6974C20061C6B5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFFC3148AAF3EA599328B719 /* Pods-SignalR.Client.OSX.release.xcconfig */;
+			baseConfigurationReference = 1B39886EE52E5B7D9891C602 /* Pods-SignalR.Client.OSX.release.xcconfig */;
 			buildSettings = {
 				BITCODE_GENERATION_MODE = bitcode;
 				CODE_SIGN_IDENTITY = "-";
@@ -1081,7 +1108,7 @@
 				INFOPLIST_FILE = ../Framework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dyknow.SignalR-ObjC";
 				PRODUCT_NAME = SignalR;
 				SDKROOT = macosx;
@@ -1091,14 +1118,14 @@
 		};
 		39302A091C6974C20061C6B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 169D6F6F1D2268E3DC76B1F5 /* Pods-SignalR.Client.OSX-SignalR.Client.OSXTests.debug.xcconfig */;
+			baseConfigurationReference = 7310A0583ECDADE2915A8573 /* Pods-SignalR.Client.OSX-SignalR.Client.OSXTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/../Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = ../Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dyknow.SignalRTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -1107,14 +1134,14 @@
 		};
 		39302A0A1C6974C20061C6B5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07F6CD2CF7A672DA7749C5EF /* Pods-SignalR.Client.OSX-SignalR.Client.OSXTests.release.xcconfig */;
+			baseConfigurationReference = 85DB111E55BDB583856D010E /* Pods-SignalR.Client.OSX-SignalR.Client.OSXTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/../Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = ../Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dyknow.SignalRTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -1134,7 +1161,7 @@
 				GCC_WARN_SHADOW = YES;
 				INFOPLIST_FILE = ../Framework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = ../Framework/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dyknow.SignalR-ObjC";
@@ -1156,7 +1183,7 @@
 				GCC_WARN_SHADOW = YES;
 				INFOPLIST_FILE = ../Framework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = ../Framework/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dyknow.SignalR-ObjC";
@@ -1171,7 +1198,7 @@
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ../Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dyknow.SignalRTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1184,7 +1211,7 @@
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ../Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dyknow.SignalRTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

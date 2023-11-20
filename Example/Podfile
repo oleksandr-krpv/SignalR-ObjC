@@ -1,5 +1,5 @@
-xcodeproj 'SignalR.Client.ObjC Example'
-workspace '../SignalR.Client.ObjC'
+project 'SignalR.Client.ObjC Example.pbxproj'
+workspace '../SignalR.Client.ObjC.xcworkspace'
 
 target "OS X Example" do
     use_frameworks!
@@ -10,7 +10,7 @@ end
 
 target "iOS Example" do
     use_frameworks!
-    platform :ios, '9.0'
+    platform :ios, '11.0'
     
     pod 'SignalR-ObjC', :path => '..'
 end
